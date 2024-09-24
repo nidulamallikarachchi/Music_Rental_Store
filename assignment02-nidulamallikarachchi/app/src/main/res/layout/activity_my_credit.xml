@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/instrumentImageView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:contentDescription="Profile Image"
+        android:src="@drawable/avatar"
+        />
+
+    <TextView
+        android:id="@+id/currentCreditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing Credit: 100"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/addCreditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Buy More Credit"
+        android:backgroundTint="#1FF008"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
